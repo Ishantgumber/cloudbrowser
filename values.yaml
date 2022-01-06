@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: Always
+
+
+service:
+  type: ClusterIP
+  port: 8080
+
+
